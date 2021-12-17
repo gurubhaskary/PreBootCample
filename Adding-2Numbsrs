@@ -1,0 +1,29 @@
+const readline = require('readline');
+const inp = readline.createInterface({input: process.stdin});
+const userInput = [];
+inp.on("line", (data) => {userInput.push(data);});inp.on("close", () => 
+{
+   
+    //var a= userInput[0].split(" ");
+    var c = parseInt(userInput[0])+parseInt(userInput[1]);
+console.log(c) ;
+    
+});
+
+/*const readline = require('readline');
+const inp = readline.createInterface({input: process.stdin});
+const userInput = [];
+inp.on("line", (data) => {userInput.push(data);});
+inp.on("close", () => 
+{
+    var sum = 0;
+    for (var i=0;i<3;i++)
+    {
+       var z= userInput[i].split(" ");
+       for(var j=0;j<z.length;j++)
+       {
+           sum=sum+parseInt(z[j]);
+       }
+    }
+    console.log(Sum);
+});*/
