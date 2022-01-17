@@ -24,3 +24,8 @@ b=Math.PI;
 c=a*a;
 console.log(b*c);
 });
+
+Sample Input :
+2
+Sample Output :
+12.57
